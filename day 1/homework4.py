@@ -1,5 +1,0 @@
-print(2+2)
-print(10-7)
-print(67*32)
-print(72/9)
-print(70*7)
