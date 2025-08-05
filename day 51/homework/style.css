@@ -1,0 +1,22 @@
+html {
+    background-color:silver
+}
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-transform:capitalize;
+    text-decoration: underline dashed gray;
+    text-shadow: 2px 2px 4px black;
+    text-align:center
+}
+p {
+    font-family:'Times New Roman', Times, serif;
+    text-transform:capitalize;
+    text-align:center;
+    color:black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

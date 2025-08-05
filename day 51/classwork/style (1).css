@@ -1,0 +1,11 @@
+#firstp {
+    text-decoration: underline solid red
+}
+
+#secondp {
+    text-transform:lowercase
+}
+
+#thirdp {
+    text-shadow: 1px 1px 4px gray
+}
