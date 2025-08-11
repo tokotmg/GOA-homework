@@ -1,0 +1,28 @@
+html {
+    background-color:green
+}
+
+h1 {
+    text-align:center;
+}
+
+a:link {
+    font-size:40px;
+    background-color:lightyellow;
+    color:red;
+    text-decoration:none
+}
+
+a:hover {
+    font-size:40px;
+    background-color:yellow;
+    color:darkred;
+    text-decoration:line-through green
+}
+
+a:active {
+    font-size:40px;
+    background-color:orange;
+    color:maroon;
+    text-decoration:line-through darkgreen
+}

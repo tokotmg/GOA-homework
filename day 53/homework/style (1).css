@@ -1,0 +1,27 @@
+html {
+    background-color:gray
+}
+
+h1 {
+    text-align:center;
+    background-color:darkgray
+}
+
+a:link {
+    font-size:40px;
+    background-color:silver;
+    color:gray;
+    text-decoration:none
+}
+
+a:hover {
+    background-color:gray;
+    color:darkgray;
+    text-decoration:underline dashed darkgray
+}
+
+a:active {
+    background-color:black;
+    color:gray;
+    text-decoration:underline dashed darkgray
+}
