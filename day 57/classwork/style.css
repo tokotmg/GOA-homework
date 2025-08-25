@@ -1,0 +1,18 @@
+button {
+    color:white;
+    background-color:rgb(141, 109, 230);
+}
+
+label {
+    color:rgb(37, 27, 92);
+}
+
+#Address_Details {
+    color:rgb(37, 27, 92);
+    font-weight:bold
+}
+
+input {
+    padding:7px;
+    width:30%
+}
