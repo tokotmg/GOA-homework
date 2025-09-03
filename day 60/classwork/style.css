@@ -1,0 +1,15 @@
+p {
+    margin:50px
+}
+
+div {
+    border: 10px solid blue;
+    background-color:green;
+    padding:100px
+}
+
+div p {
+    background-color:red;
+    padding:100px;
+    text-align:center
+}
