@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:red;
+    border:solid white
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white
+}
+
+header div {
+    background-color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:start;
+    align-items:flex-start;
+    flex-direction:row;
+}
+
+.child {
+    background-color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:end;
+    align-items:flex-start;
+    flex-direction:row;
+    gap:25px;
+}
+
+section {
+    background-color:red
+}
+
+button {
+    background-color:white;
+    color:blue;
+    border:none
+}
