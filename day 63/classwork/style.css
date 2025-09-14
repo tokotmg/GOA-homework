@@ -1,0 +1,51 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #0a0c1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv {
+    width: 800px;
+    height: 350px;
+}
+
+main {
+    height: 410px;
+    padding: 50px;
+    background-color:#1c1938;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 25px;
+}
+
+main h1 {
+    width: 350px;
+    font-weight: normal;
+    line-height: 110%;
+    font-size: 33px;
+    font-weight:bold
+}
+
+main p {
+    width:350px;
+    font-size: 15px;
+}
+
+nav {
+    display:flex;
+    gap:25px;
+    height: 410px;
+    padding-top: 50px;
+    gap:80px
+}
