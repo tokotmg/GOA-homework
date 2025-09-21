@@ -1,0 +1,36 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background-color:white;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px
+}
+
+main {
+    display:flex;
+    justify-content:center;
+}
+
+button {
+    border:none;
+    border-radius:10px;
+    padding:5px;
+    color:white;
+}
+
+#iOS {
+    background-color:rgb(38, 187, 165)
+}
+
+#Mac {
+    background-color:rgb(97, 116, 255)
+}
+
+footer {
+    background-color:rgb(245, 246, 248);
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
