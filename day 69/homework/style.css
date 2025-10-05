@@ -1,0 +1,15 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+
+div {
+    width:200px;
+    height:200px;
+    background-color:gold;
+    border:silver 2px solid;
+    position:relative;
+    top:100px;
+    left:100px
+}

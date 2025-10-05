@@ -1,0 +1,14 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+
+div {
+    width:200px;
+    height:200px;
+    background-color:limegreen;
+    position:absolute;
+    top:230px;
+    right:140px
+}
