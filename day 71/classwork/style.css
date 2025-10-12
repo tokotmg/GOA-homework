@@ -1,0 +1,80 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html {
+    background-color:rgb(165, 163, 124);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column-reverse;
+    width:310px;
+    height:250px;
+    position:absolute;
+}
+
+.parent {
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: contain;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column-reverse;
+    width:310px;
+    height:250px;
+    position:absolute;
+}
+
+#Tokyo {
+    background-image:url(Images/image1.jpg);
+    left:100px
+}
+
+#Dubai {
+    background-image:url(Images/image2.jpg);
+    left:540px
+}
+
+#Paris {v
+    background-image:url(Images/image3.jpg);
+    left:1000px
+}
+
+#Tbilisi {
+    background-image:url(Images/tbilisi.jpg);
+    top:300px;
+    left:100px
+}
+#New_York {
+    background-image:url(Images/image4.jpg);
+    top:300px;
+    left:540px
+}
+
+#South_Korea {
+    background-image:url(Images/image5.jpg);
+    top:300px;
+    left:1000px
+}
+
+.child {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+h1 {
+    color:white
+}
+
+p {
+    color:white
+}
+
+div:hover {
+    transform: scale(110%) 
+}
