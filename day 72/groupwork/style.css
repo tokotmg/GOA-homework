@@ -1,0 +1,67 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:"Noto Sans Georgian", sans-serif;
+}
+
+footer {
+    width:100%;
+    height:400px;
+    background-color:rgb(243, 242, 242);
+    position:relative;
+    display:flex;
+    gap:120px;
+    top:436px;
+    padding:80px;
+}
+
+#footer {
+    display:flex;
+    flex-direction:column;
+    gap:20px
+}
+
+#copyright {
+    width:100vh;
+    background-color:rgb(243, 242, 242);
+    position:relative;
+    top:43px;
+}
+
+form {
+    display:flex;
+}
+
+input {
+    padding:10px 15px;
+    display:flex;
+    flex-direction:column;
+    border:none;
+}
+
+button {
+    background-color:rgb(193, 0, 59);
+    color:white;
+    border:none;
+    padding:10px 15px
+}
+
+.logos {
+    display:flex;
+    gap:10px
+}
+
+i {
+    color:gray
+}
+
+.emailandphone {
+    color:rgb(193, 0, 59);
+}
+
+a {
+    display:flex;
+    flex-direction:column;
+    margin-top:20px
+}
