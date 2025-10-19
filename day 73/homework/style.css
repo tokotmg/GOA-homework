@@ -1,0 +1,24 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+h1 {
+    background: #d90404;
+    background: linear-gradient(114deg, rgba(217, 4, 4, 1) 37%, rgba(217, 121, 37, 1) 63%);
+}
+
+p {
+    background: #0464d9;
+    background: linear-gradient(46deg, rgba(4, 100, 217, 1) 28%, rgba(142, 37, 217, 1) 70%);
+}
+
+button {
+    background: #ffa14f;
+    background: linear-gradient(136deg, rgba(255, 161, 79, 1) 26%, rgba(126, 82, 171, 1) 70%);
+    color:white;
+    border:none;
+    border-radius:25px;
+    height:25px
+}
