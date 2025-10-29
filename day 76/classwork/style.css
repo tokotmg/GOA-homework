@@ -1,0 +1,14 @@
+#parent {
+    width:800px;
+    height:500px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+
+.items {
+    border: 1px solid gray;
+}
+
+#grid1 {
+    background-color:rgb(80, 227, 194)
+}

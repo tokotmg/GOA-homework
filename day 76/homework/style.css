@@ -1,0 +1,23 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+
+#parent {
+    width:800px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:25px
+}
+ 
+.items {
+    border:none;
+    border-radius:10px;
+    background-color:rgb(68, 68, 68);
+    color:white;
+    text-align:center;
+    font-size:50px;
+    padding-top:70px
+}
