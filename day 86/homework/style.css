@@ -1,0 +1,38 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+
+body {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+#parent {
+    width:380px;
+    height:380px;
+    background-color:rgb(64, 106, 227);
+    border:none
+}
+
+#circle-right {
+    width:100px;
+    height:100px;
+    background-color:rgb(224, 185, 135);
+    border-radius:50px;
+    margin-top:150px;
+    animation:move-right linear 4s infinite
+}
+
+@keyframes move-right {
+    0%{
+        transform:translateX(0px)
+    }
+
+    100% {
+        transform:translateX(280px)
+    }
+}
