@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+    /* განლაგება */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 60px;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.h1div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a5{
+    display: flex;
+    gap: 75px;
+}
+
+main{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url("https://visitgeorgia.ge/wp-content/uploads/IMG_8042_1_30.jpg");
+    background-size: cover;
+    background-position: end;
+    height: 65vh;
+}
+
+.afterfirst{
+    display: flex;
+    justify-content: center;
+}
+
+.firsthalf{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ininendhalf{
+    display: flex;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yourtrvl{
+    display: flex;
+    justify-content: center;
+}
+
+.p1div{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.midhalf{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 50px;
+    gap: 20px;
+}
+
+.inendhalf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.endhalf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    right: 50px;
+    top: 50px;
+    width: 950px;
+    margin: auto;
+}
+
+.h1andpandh{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1andp{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+    /* თეგები */
+
+
+.h1{
+    font-size: 37px;
+    color: #b01b2e;
+    background-color: white;
+    width: 1100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 17px;
+}
+
+.a1{
+    color: #777;
+    text-decoration: none;
+    font-size: 18px;
+}
+.a1:hover{
+    color: #b01b2e;
+    border-bottom: 3px solid #f2f1ed;
+    transition: 0.2s;
+}
+
+.p1{
+    font-size: 19px;
+}
+
+.p2{
+    font-weight: 300;
+}
+
+.h3{
+    font-size: 18px;
+    color: #b01b2e;
+}
+
+.material-symbols-outlined{
+    color: #b01b2e;
+}
+
+.ulmain{
+    list-style-type: circle;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.li2{
+    color: #b01b2e;
+}
+
+.ulmain3{
+    background-color: beige;
+    width: 340px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    list-style-type: circle;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.culture-page {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:#f3f1ef;
+    border-radius:10px;
+    width:360px;
+    height:800px;
+    background-size:contain;
+    background-position:start;
+    background-repeat:no-repeat;
+}
+
+#sustainability {
+    background-image:url("https://visitgeorgia.ge/wp-content/uploads/Sustainable-1024x682.jpg");
+}
+
+#wonders {
+    background-image:url("https://visitgeorgia.ge/wp-content/uploads/-ვგ-3-e1616152739240-1024x379.jpg");
+}
+
+#magical {
+    background-image:url("https://visitgeorgia.ge/wp-content/uploads/-ჯვარი-ვგ-1-e1615466928555-1024x461.jpg");
+}
+
+#family {
+    background-image:url("https://visitgeorgia.ge/wp-content/uploads/DSC047054-12-1-scaled-e1619074323500-1024x473.jpg");
+}
+
+#landscapes {
+    background-image:url("https://visitgeorgia.ge/wp-content/uploads/DSC01341-scaled-e1618575755354-1024x458.jpg");
+}
+
+#fairytale {
+    background-image:url("https://visitgeorgia.ge/wp-content/uploads/-ვგ-1-1-1-e1619024613906-1024x524.jpg");
+}
+
+button { 
+    background-color:#097bb0;
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:15px
+}
