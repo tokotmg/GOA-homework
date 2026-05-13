@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        transition: background-color 0.3s;
+        }
+        #myDiv {
+        width: 200px;
+        height: 200px;
+        background-color: lightgray;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        }
+        #box {
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            border:2px solid black;
+            margin-bottom: 10px;
+            transition: all 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <button id="darkbtn" onclick="setDark()">Dark Mode</button>
+    <button id="whitebtn" onclick="setWhite()">Light Mode</button>
+    <div id="myDiv"></div>
+    <button onclick="changeColor()">Change Color</button>
+    <div id="box"></div>
+    <button onclick="resizeBox()">+</button>
+    <script src="index.js"></script>
+</body>
+</html>
