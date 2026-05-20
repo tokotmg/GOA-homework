@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input { padding: 8px; width: 250px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 10px 15px; background: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .error { color: red; font-size: 14px; margin-top: 5px; }
+        .success { color: green; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <div id="formFeedback" class="success"></div>
+    <form id="userForm" novalidate>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <div id="emailError" class="error"></div>
+        </div>
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age" required>
+            <div id="ageError" class="error"></div>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" required>
+            <div id="phoneError" class="error"></div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+     <script src="index (2).js"></script>
+</body>
+</html>

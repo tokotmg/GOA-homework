@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .field-container { margin-bottom: 10px; }
+        input {
+        padding: 8px;
+        border: 2px solid #ccc;
+        outline: none;
+        border-radius: 4px;
+         }
+
+        input.match {
+            border-color: #2ecc71;
+        }
+
+        input.mismatch {
+            border-color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <form id="registrationForm">
+    <div class="field-container">
+        <label>Password:</label>
+        <input type="password" id="password" required>
+    </div>
+    <div class="field-container">
+        <label>Confirm Password:</label>
+        <input type="password" id="confirm_password" required>
+    </div>
+    <button type="submit">Submit</button>
+    </form>
+    <script src="index (1).js"></script>
+</body>
+</html>
