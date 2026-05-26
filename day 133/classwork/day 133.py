@@ -1,0 +1,22 @@
+def get_count(sentence):
+    return sum(1 for char in sentence if char in "aeiou")
+def is_kiss(words):
+    words = words.split()
+    total_words = len(words)
+    if all (len(word) <= total_words for word in words):
+        return "Good work Joe!"
+    else:
+        return "Keep It Simple Stupid"
+import string
+from codecs import encode as _dont_use_this_
+def rot13(message):
+    cipher_table = {}
+    for ch in range(0, 26):
+        cipher_table[chr(ch + ord('A'))] = chr(((ch + 13) % 26) + ord('A'))
+        cipher_table[chr(ch + ord('a'))] = chr(((ch + 13) % 26) + ord('a'))
+    return "".join([cipher_table[c] if c in cipher_table else c for c in message])
+from unittest import TestCase
+class TestRot13(TestCase):
+    def test_rot13(self):
+        self.assertEquals(rot13("test"), "grfg")
+        self.assertEquals(rot13("Test"), "Grfg")
