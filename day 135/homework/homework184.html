@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="auth-container">
+        <div class="tab-header">
+            <button id="tab-login" class="active-tab" onclick="switchForm('login')">Log In</button>
+            <button id="tab-register" onclick="switchForm('register')">Register</button>
+        </div>
+        <form id="login-form" class="auth-form" onsubmit="handleLogin(event)">
+            <h2>Welcome Back</h2>
+            <div class="input-group">
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" placeholder="Enter username">
+                <span class="error-msg" id="login-username-err"></span>
+            </div>
+            <div class="input-group">
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" placeholder="Enter password">
+                <span class="error-msg" id="login-password-err"></span>
+            </div>
+            <button type="submit" class="submit-btn">Sign In</button>
+            <div class="global-msg success" id="login-global-msg"></div>
+        </form>
+        <form id="register-form" class="auth-form hidden" onsubmit="handleRegister(event)">
+            <h2>Create Account</h2>
+            <div class="input-group">
+                <label for="reg-username">Username</label>
+                <input type="text" id="reg-username" placeholder="Choose a username">
+                <span class="error-msg" id="reg-username-err"></span>
+            </div>
+            <div class="input-group">
+                <label for="reg-email">Email Address</label>
+                <input type="text" id="reg-email" placeholder="name@example.com">
+                <span class="error-msg" id="reg-email-err"></span>
+            </div>
+            <div class="input-group">
+                <label for="reg-password">Password</label>
+                <input type="password" id="reg-password" placeholder="At least 6 characters">
+                <span class="error-msg" id="reg-password-err"></span>
+            </div>
+            <div class="input-group">
+                <label for="reg-confirm">Confirm Password</label>
+                <input type="password" id="reg-confirm" placeholder="Re-enter password">
+                <span class="error-msg" id="reg-confirm-err"></span>
+            </div>
+            <button type="submit" class="submit-btn">Sign Up</button>
+            <div class="global-msg success" id="reg-global-msg"></div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
