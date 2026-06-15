@@ -1,0 +1,16 @@
+const user = { name: "Luka", age: 20 };
+const { name } = user;
+console.log(name);
+const arr1 = [1, 2];
+const arr2 = [3, 4];
+const combinedArr = [...arr1, ...arr2];
+console.log(combinedArr);
+const fruits = ["apple", "banana", "peach"];
+const [first, ...rest] = fruits;
+console.log(first);
+console.log(rest);
+localStorage.setItem('color', 'red');
+const storedColor = localStorage.getItem('color');
+console.log(storedColor);
+const currentUser = localStorage.getItem("username");
+console.log(currentUser);
