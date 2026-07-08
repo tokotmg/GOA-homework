@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeStore App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MyStore</div>
+        <nav id="nav-auth">
+        </nav>
+    </header>
+    <main class="container">
+        <section id="page-home" class="page active-page">
+            <h2>Our Products</h2>
+            <div id="loading" class="loading">Loading products...</div>
+            <div id="product-grid" class="product-grid"></div>
+        </section>
+        <section id="page-login" class="page">
+            <div class="auth-card">
+                <h2>Login</h2>
+                <form id="form-login">
+                    <div class="form-group">
+                        <label for="login-user">Username</label>
+                        <input type="text" id="login-user" required autocomplete="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="login-pass">Password</label>
+                        <input type="password" id="login-pass" required autocomplete="current-password">
+                    </div>
+                    <button type="submit" class="btn">Sign In</button>
+                </form>
+                <p class="auth-switch">Don't have an account? <a href="#" id="link-to-register">Register here</a></p>
+            </div>
+        </section>
+        <section id="page-register" class="page">
+            <div class="auth-card">
+                <h2>Register</h2>
+                <form id="form-register">
+                    <div class="form-group">
+                        <label for="reg-user">Username</label>
+                        <input type="text" id="reg-user" required autocomplete="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-pass">Password</label>
+                        <input type="password" id="reg-pass" required autocomplete="new-password">
+                    </div>
+                    <button type="submit" class="btn">Create Account</button>
+                </form>
+                <p class="auth-switch">Already have an account? <a href="#" id="link-to-login">Login here</a></p>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
