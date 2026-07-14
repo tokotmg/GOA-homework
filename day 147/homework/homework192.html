@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake Store - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>My Shop</h1>
+        <div id="auth-controls">
+            <!-- Guest View -->
+            <span id="guest-controls">
+                <a href="login.html"><button>Log in</button></a>
+                <a href="register.html"><button>Register</button></a>
+            </span>
+            <!-- Logged In View -->
+            <span id="user-controls" class="hidden">
+                <span id="welcome-msg"></span>
+                <button id="logout-btn">Log out</button>
+            </span>
+        </div>
+    </header>
+    <main>
+        <h2>Our Products</h2>
+        <div id="product-list" class="product-grid">Loading products...</div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
