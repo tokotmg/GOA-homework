@@ -1,0 +1,13 @@
+import { addTax } from './tax.js';
+const initialAmount = 100;
+const finalResult = addTax(initialAmount);
+console.log(`Initial: $${initialAmount}`);
+console.log(`With 18% Tax: $${finalResult}`);
+import { user } from './user.js';
+console.log(user.name);
+import { numbers } from './numbers.js';
+console.log(numbers[0]);
+import { makeUppercase } from './text.js';
+const myText = "hello world";
+const result = makeUppercase(myText);
+console.log(result);
