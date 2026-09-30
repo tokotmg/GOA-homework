@@ -1,0 +1,21 @@
+.alert-box {
+  background-color: #fef9c3; /* Light yellow background */
+  border: 2px solid #451a03;  /* Dark border */
+  border-radius: 6px;
+  padding: 16px;
+  margin: 12px 0;
+}
+.alert-text {
+  font-size: 16px;            /* Text size */
+  color: #451a03;
+  margin: 0;
+}
+.custom-btn {
+  background-color: #007bff; /* Blue background */
+  color: #ffffff;            /* White text */
+  border: none;              /* No border */
+  padding: 10px 20px;        /* Padding (adjustable) */
+  cursor: pointer;           /* Pointer cursor */
+  border-radius: 4px;        /* Optional: smooths the corners */
+  font-size: 16px;           /* Optional: improves readability */
+}
