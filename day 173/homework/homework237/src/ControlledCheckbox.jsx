@@ -5,7 +5,7 @@ function ControlledCheckbox() {
     setIsChecked(event.target.checked);
   };
   return (
-    <div style={{ fontFamily: 'Arial, sans-serif', margin: '20px' }}>
+    <div>
       <label>
         <input 
           type="checkbox" 
